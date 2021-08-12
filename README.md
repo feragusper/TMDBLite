@@ -12,6 +12,7 @@ It's based on Clean Architecture. Using a MVVM with Repository, and without Inte
 
 Libraries included
 -----------------
+
 - Kotlin
 - Kotlin Coroutines/Flow
 - Navigation Component
@@ -23,8 +24,12 @@ Libraries included
 - Glide
 
 CI
--------
+--
 There's already a workflow available for downloading the last stable build at https://github.com/feragusper/TMDBLite/actions
+
+Demo
+----
+![TMDB_Demo](misc/tmdb_demo.gif)
 
 Support
 -------
