@@ -15,14 +15,14 @@ import com.google.gson.annotations.SerializedName
  */
 
 data class TVShowGenreListResponse(
-    val genres: List<GenreEntity>
+    val genres: List<GenreEntity>,
 ) {
     fun toGenreList() = genres.map { genreEntity -> genreEntity.toGenre() }
 }
 
 data class GenreEntity(
     val id: Int,
-    val name: String
+    val name: String,
 ) {
     fun toGenre() = Genre(
         id = id,
@@ -38,7 +38,7 @@ interface TVShowListPageable {
 data class TVShowListResponse(
     val results: List<TVShowEntity>,
     val page: Int,
-    @field: SerializedName("total_pages") override val totalPages: Int
+    @field: SerializedName("total_pages") override val totalPages: Int,
 ) : TVShowListPageable {
     override fun toTVShows(genreList: List<Genre>) = results.map { tvShowEntity -> tvShowEntity.toTVShow(genreList) }
 }
@@ -55,8 +55,8 @@ data class TVShowEntity(
 
     fun toTVShow(genreList: List<Genre>) = TVShow(
         id = id,
-        posterUrl = BuildConfig.TMDB_API_HOST_IMAGES + posterPath,
-        backDropUrl = BuildConfig.TMDB_API_HOST_IMAGES + backdropPath,
+        posterUrl = "${BuildConfig.TMDB_API_HOST_IMAGES}w500/$posterPath",
+        backDropUrl = "${BuildConfig.TMDB_API_HOST_IMAGES}w1280/$backdropPath",
         name = name,
         overview = overview,
         firstAirDate = firstAirDate,
