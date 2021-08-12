@@ -14,13 +14,15 @@ Libraries included
 -----------------
 
 - Kotlin
+- Architecture Components
 - Kotlin Coroutines/Flow
+- Hilt
+- Retrofit and OkHttp
+- Data Binding
+- Constraint and Motion Layout
 - Navigation Component
 - Paging Library
 - Palette
-- Constraint and Motion Layout
-- Hilt
-- Retrofit and OkHttp
 - Glide
 
 CI
