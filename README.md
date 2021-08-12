@@ -22,6 +22,10 @@ Libraries included
 - Retrofit and OkHttp
 - Glide
 
+CI
+-------
+There's already a workflow available for downloading the last stable build at https://github.com/feragusper/TMDBLite/actions
+
 Support
 -------
 If you've found an error in this project, please file an issue: https://github.com/feragusper/TMDBLite/issues

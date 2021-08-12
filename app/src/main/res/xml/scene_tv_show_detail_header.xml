@@ -24,9 +24,9 @@
     <ConstraintSet android:id="@+id/start">
 
         <Constraint
-            android:id="@id/tvShowImageCard"
+            android:id="@id/tvShowImage"
             android:layout_width="wrap_content"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:layout_marginTop="@dimen/margin_normal"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
@@ -35,33 +35,64 @@
         <Constraint
             android:id="@id/tvShowName"
             android:layout_width="wrap_content"
-            android:layout_height="41dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_normal"
             motion:autoSizeTextType="uniform"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@id/tvShowImageCard" />
+            motion:layout_constraintTop_toBottomOf="@+id/tvShowImage" />
 
-    </ConstraintSet>
-
-    <ConstraintSet android:id="@+id/end">
         <Constraint
-            android:id="@id/tvShowImageCard"
+            android:id="@id/tvShowYear"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_normal"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toTopOf="parent" />
+            motion:layout_constraintTop_toBottomOf="@id/tvShowName" />
+
+        <Constraint
+            android:id="@id/subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/tvShowYear" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:id="@id/tvShowImage"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:layout_marginBottom="@dimen/margin_normal"
+            motion:layout_constraintBottom_toTopOf="@id/subscribe"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
 
         <Constraint
             android:id="@id/tvShowName"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_height="wrap_content"
+            android:alpha="0" />
+
+        <Constraint
+            android:id="@id/tvShowYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0" />
+
+        <Constraint
+            android:id="@id/subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:alpha="0.3"
+            motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@id/tvShowImageCard" />
+            motion:layout_constraintStart_toStartOf="parent" />
 
     </ConstraintSet>
 </MotionScene>

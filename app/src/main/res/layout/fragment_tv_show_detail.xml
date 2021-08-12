@@ -54,7 +54,7 @@
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
                 android:minHeight="165dp"
-                app:layoutDescription="@xml/scene_11_header"
+                app:layoutDescription="@xml/scene_tv_show_detail_header"
                 app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
 
                 <com.google.android.material.card.MaterialCardView
