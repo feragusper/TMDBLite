@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.41302083333333334" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.41302083333333334" />
+        <entry key="app/src/main/res/drawable/selector_white_rounded.xml" value="0.41302083333333334" />
+        <entry key="app/src/main/res/layout/activity_catalog.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3740942028985507" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.36186594202898553" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.3740942028985507" />
+        <entry key="app/src/main/res/layout/fragment_popular_tv_shows.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_search_tv_shows.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tv_show_detail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_tv_show_detail__with_coordinator.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/list_item_photo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item_popular_tv_show.xml" value="0.25274725274725274" />
+        <entry key="app/src/main/res/layout/list_item_search_result_tv_show.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/list_item_subscribed_tv_show.xml" value="0.19300911854103345" />
+        <entry key="app/src/main/res/layout/list_item_subscribed_tv_show_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item_tv_show.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/list_item_tv_show_list_label.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/load_state_view.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/motion_11_coordinatorlayout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/motion_11_coordinatorlayout_header.xml" value="0.36186594202898553" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.41302083333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.41302083333333334" />
+        <entry key="app/src/main/res/xml/scene_11_header.xml" value="0.36820652173913043" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
